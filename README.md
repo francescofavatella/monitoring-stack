@@ -7,9 +7,13 @@ http://localhost:9090
 https://docs.docker.com/compose/gettingstarted/
 
 docker-compose up
+
 ## grafana
 https://grafana.com/docs/grafana/latest/installation/docker/
 
 http://localhost:3000
 admin/admin
+
 ## springboot
+https://spring.io/guides/gs/actuator-service/
+https://spring.io/guides/gs/spring-boot-docker/
