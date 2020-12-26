@@ -15,8 +15,13 @@ http://localhost:3000
 admin/admin
 
 ## springboot
-https://spring.io/guides/gs/actuator-service/
+Create app
 https://spring.io/guides/gs/spring-boot-docker/
+
+https://spring.io/guides/gs/actuator-service/
+https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html
+
+
 
 ./gradlew clean build && java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 mkdir -p build/dependency && (cd build/dependency; jar -xf ../libs/*.jar)
@@ -28,3 +33,8 @@ curl localhost:8080
 Hello Docker World%
 
 sudo lsof -i tcp:8080
+
+
+
+http_server_requests_seconds_count
+http://localhost:8080/actuator/prometheus
