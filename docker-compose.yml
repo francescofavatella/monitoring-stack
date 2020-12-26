@@ -1,7 +1,7 @@
 version: "3.9"  # optional since v1.27.0
 services:
-  spring:
-    build: demo/
+  spring-app:
+    build: spring-app/
     ports:
       - 8080:8080
   prometheus:
@@ -9,7 +9,7 @@ services:
     ports:
       - 9090:9090
     depends_on:
-      - spring
+      - spring-app
   grafana:
     build: grafana/
     ports:
