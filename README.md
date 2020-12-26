@@ -14,6 +14,8 @@ https://grafana.com/docs/grafana/latest/installation/docker/
 http://localhost:3000
 admin/admin
 
+### Create dashboards
+https://ops.tips/blog/initialize-grafana-with-preconfigured-dashboards/
 ## springboot
 Create app
 https://spring.io/guides/gs/spring-boot-docker/
